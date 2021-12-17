@@ -90,6 +90,7 @@ nav .fa{
     }
     
     .text-box h1{
+        display: block;
         padding-top: 30px;
         font-size: 18px;
    }
