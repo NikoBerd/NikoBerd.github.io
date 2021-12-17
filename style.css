@@ -83,9 +83,9 @@ nav img{
 nav .fa{
     display: none;
 }
-@media(max-width: 900px){
+@media(max-width: 768px){
     .text-box h1{
-        padding-top: 100px;
+        padding-top: 10px;
         font-size: 18px;
    }
     .nav-links ul li{
