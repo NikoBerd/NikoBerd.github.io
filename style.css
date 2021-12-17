@@ -85,7 +85,7 @@ nav .fa{
 }
 @media(max-width: 768px){
     .logo img{
-        width:50%!important;
+        width:100%!important;
 margin:auto;
 padding:auto;
     }
