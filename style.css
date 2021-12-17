@@ -84,13 +84,12 @@ nav .fa{
     display: none;
 }
 @media(max-width: 768px){
-    .logo{
-        width: 50% !important;
-    margin: 0 auto;
+    .logo img{
+        width:50%!important;
+margin:auto;
+padding:auto;
     }
-    
     .text-box h1{
-        display: block;
         padding-top: 30px;
         font-size: 18px;
    }
