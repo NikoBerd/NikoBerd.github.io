@@ -84,8 +84,8 @@ nav .fa{
     display: none;
 }
 @media(max-width: 768px){
-    .logo{
-        height: 50%;
+    .logo img{
+        height:50%
     }
     .text-box h1{
         padding-top: 10px;
