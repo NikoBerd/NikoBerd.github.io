@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Georgian Technical University</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html" class="animate__animated animate__fadeIn"><img src="gtu_img/logo.png" alt="GTU logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul class="animate__animated animate__fadeIn">
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <!-- about us content-->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>
+                    Georgian Technical University has provided over 60% of Georgia's engineering, chemistry and 
+                    scientific industry specialists for the last eighty years. While its major counterpart Tbilisi
+                    State University focuses on popular specialties like Civil Law or Economics, GTU continues its
+                    fine tradition of providing technical specialists to the industry and exact sciences. Additionally,
+                    over the recent years GTU added more establishments, "Caucasus Business School" — A joint project of 
+                    GTU, Tbilisi State University and Georgia State University (Atlanta, Georgia, USA), German Studies faculty, 
+                    a Franco-Georgian Studies Faculty and a "Cisco Networking Academy". GTU also has thirteen offspring institutes
+                    all over the country.GTU uses the ECTS grading scale and awards degrees and diplomas in Diploma of Specialist,
+                    Bachelor of Science, Bachelor of Arts, and Master of Science. The first three degrees require four to four-and-one-half
+                    years of full-time studies; the Master of Sciences degree requires a year-and-one-half to two years of full-time studies. 
+                    Most students (apart from those in humanities or arts specialties) undergo rigorous training in mathematics and fundamental 
+                    sciences while studying at the GTU. GTU is known for its strong ties with "Andrea Razmadze Institute of Mathematics of Georgia", 
+                    the leading mathematical research institute in Transcaucasia.</p>
+                    <a href="http://" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="gtu_img/about.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>GTU at social networks:</p>
+            <div class="icons">
+                <a class="twitter" href="https://twitter.com/gtuge" target="_blank"><img src="gtu_img/twitter.png" height="30px" ></a>
+                <a class="twitter" href="https://www.facebook.com/gtu.ge" target="_blank"><img src="gtu_img/fb.png" height="35px" ></a>
+
+            </div>
+            <p>Made By <i class="fa fa-rocket"></i>  Niko Berdzenishvili</p>
+        </section>
+        <!-- JS for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

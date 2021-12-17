@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Georgian Technical University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="animate__animated animate__fadeIn"><img src="gtu_img/logo.png" alt="GTU logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul class="animate__animated animate__fadeIn">
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!--Blog page content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="gtu_img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>With a focus on interreligious and interdisciplinary perspectives, GTU offers PhD and MA degree programs spanning more than 30 concentrations of focus, allowing for diverse educational interests and vocational goals. Students can focus their studies within a single tradition—including Buddhist, Christian, Hindu, Islamic, Jain, Jewish, Wiccan, neo-pagan, and more—or explore interreligious themes. The GTU offers unique opportunities for groundbreaking interdisciplinary scholarship, bringing religion into dialogue with disciplines like the arts and sciences. GTU degree programs offer flexibility that allows students to tailor their program in consultation with their advisor.</p>
+                <br>
+                <p>The activities of the university are based on the principles of unity, equality and transparency of autonomy, academic freedom, learning, teaching and research, internationalization of teaching and research processes, based on which it will be possible to pass not only passive international experience but also equal participation in international scientific achievements.
+                </p>
+                <br>
+                <p>The autonomy of the university is based on university professors - students' unity and includes both autonomy from outside factors as well as internal autonomy.GTU is free from the influence of social, political and religious groups and organizations, but tolerant towards them.Every representative of this group freely, without any restriction, performs academic and scientific activities there. / Academic Freedom is an idea which provides for the kind of freedom and the relevant responsibilities that are defined for the higher education institutions, teachers, adolescents and students and, first of all, the freedom of research, teaching and learning.Expansion of knowledge boundaries in priority fields of science shall be carried out in accordance with the principles of academic freedom, professional ethics and collegiality principles;</p>
+                <br>
+                <p>The integrity of teaching, learning and research processes for GTU as a free academic space,which means tht in teaching and learning process , the latest reseach outcomes are taken into account, this will make learning more profound and diverse, and will provide greater public access to scientific-research achievements, promote the purposeful application of scientific research outcomes in public utility and adaptation implementation in the curriculum.At the same time, the student should be actively involved in analyzing the research process; The principle of equality implies equality of all the members in GTU management and organizing the study-research process.Any kind of discrimination is inadmissible.The realization of these principles is made by GTU members through equal participation in the formation of representative bodies of the university and the faculty management.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                </form>
+            </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>48</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>51</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>GTU at social networks:</p>
+        <div class="icons">
+            <a class="twitter" href="https://twitter.com/gtuge" target="_blank"><img src="gtu_img/twitter.png" height="30px"></a>
+            <a class="twitter" href="https://www.facebook.com/gtu.ge" target="_blank"><img src="gtu_img/fb.png" height="35px"></a>
+
+        </div>
+        <p>Made By <i class="fa fa-rocket"></i> Niko Berdzenishvili</p>
+    </section>
+    <!-- JS for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+    </script>
+</body>
+
+</html>
