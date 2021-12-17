@@ -87,6 +87,7 @@ nav .fa{
     .logo{
        max-width: 100%;
        height: auto;
+       padding: 50px;
     }
     .text-box h1{
         padding-top: 30px;
