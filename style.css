@@ -84,10 +84,6 @@ nav .fa{
     display: none;
 }
 @media(max-width: 900px){
-    .logo{
-        position:fixed;
-        font-size:18px;
-    }
     .text-box h1{
         font-size: 18px;
    }
