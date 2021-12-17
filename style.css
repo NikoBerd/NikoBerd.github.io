@@ -85,6 +85,7 @@ nav .fa{
 }
 @media(max-width: 900px){
     .text-box h1{
+        padding-top: 100px;
         font-size: 18px;
    }
     .nav-links ul li{
